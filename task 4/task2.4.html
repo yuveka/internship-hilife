@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+    .heading{
+        width:110px;
+        height:80px;
+        border: 3px;
+        background-color: darkcyan;
+        transform:rotate(70deg);
+        transition:width 5s;
+    }
+    .heading:hover{
+        width: 50px;
+       height:50px;
+        background-color: blueviolet;
+ }
+ .content-animation{
+    width: 150px;
+    height:100px;
+    background-color: rgb(80, 135, 255);
+    font-size: 25px;
+    color:black;
+    animation-name:demo;
+    animation-duration: 5s;
+ }
+ @keyframes demo{
+    from{
+        background-color: chartreuse;
+    }
+    to{
+        background-color: goldenrod;
+    }
+ }
+p{
+    column-count: 5;
+    column-gap: normal;
+    column-rule-style:groove;
+    column-rule-color: blueviolet;
+    text-align:justify;
+    font-size: 25px;
+ }
+ @media screen and (max-width:500px) {
+    p{
+        color:red;
+        font-size:20px;
+    }
+    
+ }
+ .flex-container
+ {
+    display:flex;
+    width:100px;
+    height:100px;
+    justify-content:space-between;
+ }
+ .flex-items{
+    width: 150px;
+    height:120px;
+    color:black;
+    border: 5px outset rgb(245, 190, 8);
+    font-size: 80px;
+    background-color: darkslategray;
+ }
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Nature is the natural, physical, material world or universe. “Nature” can refer to the phenomena of the physical world, and also to life in general. It ranges in scale from the subatomic to the cosmic. Our planet is rich in nature. All natural things make nature more beautiful and attractive. It has flowing rivers, beautiful valleys, high mountains, singing birds, the oceans, the blue sky, different seasons, the rain, the beautiful moonlight etc.The beauty of nature is matchless.The blessings of nature on human beings are innumerable.
+    </p>
+    <div class="heading">
+        <h1>
+            Hilife.ai
+        </h1>
+    </div>
+    <div class="content-animation">
+        <h2> nature is beauty</h2>
+    </div><br>
+    <div class="flex-container">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+        <div class="flex-items">4</div>
+        <div class="flex-items">5</div>
+        <div class="flex-items">6</div>
+        <div class="flex-items">7</div>
+        <div class="flex-items">8</div>
+        <div class="flex-items">9</div>
+    </div>
+</body>
+</html>

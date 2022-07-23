@@ -1,0 +1,34 @@
+p{ 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 30px;
+    font-style: italic;
+}
+h1{
+    opacity: 0.3;
+}
+img{
+    filter:blur(10px);
+}
+p{
+border:3px solid rgb(33, 224, 16);
+}
+#image
+{
+    font-size: 30px;
+    background-image:url("logo.jpg");
+}
+#image
+{
+    background-image: url("rose.jpg");
+}
+.heading{
+    display: flex;
+}
+.items{
+    border-style: dashed;
+    font-size: 20px;
+    border-color: blueviolet;
+}
+.heading{
+    display:inline
+}

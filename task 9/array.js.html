@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        //string methods
+        //Replacing string
+        var str=("welcome","hello");
+        var newstr=str.replace("hello","tree");
+        console.log(newstr);
+        //string uppercase
+        var str=("welcome");
+        var str1=str.toUpperCase();
+        console.log(str1);
+        //concat string
+        var str1=("welcome");
+        var str2=("you");
+        var str3=str1.concat("hello","you");
+        console.log(str3);
+        //string slice
+        var str=("apple,orange,mango");
+        var str1=str.slice(7,16);
+        console.log(str1);
+        //string length
+        var str="yuvekasm"
+        var str1=str.length;
+        console.log(str1);
+        //substring
+        var str=("apple,orange,mango");
+        var str1=str.substring(6,12);
+        console.log(str1);
+        //Number methods
+        //exponential methods
+        let x=5.98;
+        let x1=x.toExponential(2);
+        console.log(x1);
+        //precision methods
+        let y=7.98;
+        let y1=y.toPrecision(4);
+        console.log(y1);
+        //fixed methods
+        let c=456.79;
+        let c1=c.toFixed(3);
+        console.log(c1);
+        //string numbermethods
+        let z=345;
+        let z1=z.toString();
+        console.log(z1);
+        //object methods
+        var bag={
+            Name:'Handbag',
+            Color:'Pink',
+            Brand:'American Tourister'
+        };
+        console.log(bag.color);
+        //Array methods
+        var arr=['bird','cat','dog',13,'god',78];
+        console.log(arr);
+        var a=arr[4];
+        console.log(a);
+        var b=arr.pop();
+         console.log(b);
+        var b1=arr.push(98);
+        console.log(b1);
+        var d=[];
+        d[0]=87;
+        d[1]=67;
+        d[2]=76;
+        d[3]=90;
+        console.log(d);
+        var color=['Red','Green','Orange','Yellow'];
+        var color1=color;color.shift();
+        console.log(color1);
+        var color=['Red','Green','Orange','Yellow'];
+        var color1=color;color.unshift('pink');
+        console.log(color1);
+        //concadenating
+        var mySchool=['reliance','ssm','ragavendra'];
+        var myName=['Yuveka','Kanithra'];
+        var myBusiness=mySchool.concat(myName);
+        console.log(myBusiness);
+        //sort
+        var color=['Red','Green','Orange','Yellow'];
+        var color1=color;color.sort();
+        console.log(color1);
+        //dates
+        const s=new Date();
+        console.log(s);
+        var G=new Date().getMonth()+1;
+        console.log(G);
+        
+    </script>
+</body>
+</html>

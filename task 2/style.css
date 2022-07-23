@@ -1,0 +1,10 @@
+*{background-color: rgb(40, 219, 160);}
+p::first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+a:hover{
+    color:chartreuse;
+    font-size:30px;
+}
+
